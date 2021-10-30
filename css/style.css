@@ -61,3 +61,13 @@ body {
 .title-text-container a {
   color: white;
 }
+@media screen and (max-width: 900px) {
+  .t-title {
+    font-size: 18px;
+  }
+  .title-text-container .title {
+    font-size: 14px;
+    width: 200px;
+    word-break: keep-all;
+  }
+}
